@@ -54,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [    "http://localhost:3000",
-    "https://eld-backend-production.up.railway.app",]
+    "https://eld-backend-production.up.railway.app", "https://eld-frontend-cobt.vercel.app/"]
 
 ROOT_URLCONF = 'eld_project.urls'
 
