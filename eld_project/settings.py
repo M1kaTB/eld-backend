@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-utdgzkbvcp6le)+059d76p1g!5$u8+ngi_8l3a+11rpniu_i_c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["eld-backend-production.up.railway.app",  "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', "eld-backend-production.up.railway.app", 'localhost', '127.0.0.1']
 
 ROOT_URLCONF = 'eld_project.urls'
 
